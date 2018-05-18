@@ -1,0 +1,30 @@
+
+* {
+    background-color: #4aaaa5;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    border: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+img {
+    max-width: 150px;
+    height: auto;
+}
+
+.name {
+    background-color: #4aaaa5;
+}
+section {
+    background-color: #ffffff;
+    border: #dddddd;
+}
+
+footer {
+    background-color: #666666;
+}
