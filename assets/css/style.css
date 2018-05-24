@@ -132,18 +132,30 @@ h1 {
     height: 300px;
     
 }
-#line {
-    background: #4aaaa5;
-    height: 10px;
-}
-
 footer {
-    background: #666666;
+    background: #4aaaa5;
+    height: 60px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    line-height: 5;
+}
+
+.footer {
+    background: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     color: #ffffff;
     font-size: 10px;
+    line-height: 5;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    width: 100%;
+
+    .footer {
+
+    }
 }
